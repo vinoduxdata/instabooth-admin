@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "default",
+      "name": "Default Event",
+      "template_id": "default",
+      "status": "pause",
+      "data_path": "instabooth-data/events/default",
+      "created_at": "2026-06-09T08:08:25Z",
+      "updated_at": "2026-06-09T10:22:56Z"
+    },
+    {
+      "id": "evt-a-b-marriage-da3f4b22",
+      "name": "A & B marriage",
+      "template_id": "1",
+      "status": "active",
+      "data_path": "instabooth-data/events/evt-a-b-marriage-da3f4b22",
+      "created_at": "2026-06-09T10:22:45Z",
+      "updated_at": "2026-06-09T10:22:56Z"
+    },
+    {
+      "id": "evt-c-and-d-marriage-event-2026297e",
+      "name": "C and D Marriage Event",
+      "template_id": "2",
+      "status": "draft",
+      "data_path": "instabooth-data/events/evt-c-and-d-marriage-event-2026297e",
+      "event_inputs": {
+        "Bride Name": "C"
+      },
+      "created_at": "2026-06-10T05:16:37Z",
+      "updated_at": "2026-06-10T05:16:37Z"
+    }
+  ]
+}

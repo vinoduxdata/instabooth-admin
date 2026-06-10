@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "full_name": "Administrator",
+      "password": "0000",
+      "role": "admin",
+      "enabled": true
+    },
+    {
+      "username": "vinod",
+      "full_name": null,
+      "password": "vinod",
+      "role": "admin",
+      "enabled": true
+    }
+  ]
+}
