@@ -1,0 +1,48 @@
+{
+  "common": {
+    "admin_password": "0000",
+    "logging_level": "DEBUG",
+    "users_delete_to_recycle_dir": true
+  },
+  "backends": {
+    "enable_livestream": true,
+    "retry_capture": 3,
+    "countdown_camera_capture_offset": 0.5,
+    "index_backend_stills": 0,
+    "index_backend_video": 0,
+    "index_backend_multicam": 0,
+    "group_backends": [
+      {
+        "enabled": true,
+        "description": "virtual camera",
+        "backend_config": {
+          "orientation": "1: 0\u00b0",
+          "backend_type": "VirtualCamera",
+          "framerate": 15,
+          "emulate_hires_static_still": false,
+          "emulate_multicam_capture_devices": 4
+        }
+      }
+    ]
+  },
+  "hardwareinputoutput": {
+    "keyboard_input_enabled": false,
+    "gpio_enabled": false,
+    "gpio_pin_shutdown": 17,
+    "gpio_pin_reboot": 18,
+    "gpio_pin_job_next": 27,
+    "gpio_pin_reject": 22,
+    "gpio_pin_job_abort": 20
+  },
+  "misc": {
+    "secret_key": "ThisIsTheDefaultSecretWhichShouldBeLongerThan32Chars",
+    "cmd_shutdown": "shutdown now",
+    "cmd_reboot": "reboot"
+  },
+  "hotspot": {
+    "enabled": true,
+    "ssid": "InstaBooth",
+    "password": "instabooth-guest",
+    "interface": ""
+  }
+}

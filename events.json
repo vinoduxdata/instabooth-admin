@@ -13,10 +13,13 @@
       "id": "evt-a-b-marriage-da3f4b22",
       "name": "A & B marriage",
       "template_id": "1",
-      "status": "active",
+      "status": "pause",
       "data_path": "instabooth-data/events/evt-a-b-marriage-da3f4b22",
+      "event_inputs": {
+        "Wifi-QR-Code": "userdata/event-inputs/wifi-qr-code/marriage-style-1-floral-blush.png"
+      },
       "created_at": "2026-06-09T10:22:45Z",
-      "updated_at": "2026-06-09T10:22:56Z"
+      "updated_at": "2026-06-10T09:42:38Z"
     },
     {
       "id": "evt-c-and-d-marriage-event-2026297e",
@@ -29,6 +32,32 @@
       },
       "created_at": "2026-06-10T05:16:37Z",
       "updated_at": "2026-06-10T05:16:37Z"
+    },
+    {
+      "id": "evt-e-and-f-marriage-57a80f53",
+      "name": "E And F Marriage",
+      "template_id": "2",
+      "status": "active",
+      "data_path": "instabooth-data/events/evt-e-and-f-marriage-57a80f53",
+      "event_inputs": {
+        "Bride Name": "Bride 1",
+        "Wifi-QR-Code": "userdata/event-inputs/wifi-qr-code/marriage-style-1-floral-blush.png"
+      },
+      "created_at": "2026-06-10T09:24:54Z",
+      "updated_at": "2026-06-10T09:44:49Z"
+    },
+    {
+      "id": "evt-f-and-g-marriage-32563b61",
+      "name": "F and G Marriage",
+      "template_id": "2",
+      "status": "pause",
+      "data_path": "instabooth-data/events/evt-f-and-g-marriage-32563b61",
+      "event_inputs": {
+        "Bride Name": "F",
+        "Wifi-QR-Code": "userdata/event-inputs/wifi-qr-code/WhatsApp Image 2026-06-10 at 3.10.36 PM.jpeg"
+      },
+      "created_at": "2026-06-10T09:42:22Z",
+      "updated_at": "2026-06-10T09:44:49Z"
     }
   ]
 }

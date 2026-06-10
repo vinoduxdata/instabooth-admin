@@ -5,7 +5,7 @@
   "version": 1,
   "collage_styles": 5,
   "created_at": "2026-06-09T16:42:00Z",
-  "updated_at": "2026-06-10T05:15:44Z",
+  "updated_at": "2026-06-10T09:23:44Z",
   "inputs": [
     {
       "name": "Collage Frame 1",
@@ -17,6 +17,11 @@
     {
       "name": "Bride Name",
       "type": "text",
+      "required": true
+    },
+    {
+      "name": "Wifi-QR-Code",
+      "type": "file",
       "required": true
     }
   ]
