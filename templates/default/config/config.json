@@ -33,7 +33,7 @@
         "trigger": {
           "ui_trigger": {
             "show_button": true,
-            "title": "Image",
+            "title": "SINGLE PHOTO",
             "icon": "photo_camera",
             "use_custom_color": false,
             "custom_color": "#196cb0"
@@ -123,7 +123,7 @@
         "trigger": {
           "ui_trigger": {
             "show_button": true,
-            "title": "Collage",
+            "title": "PHOTO STRIP",
             "icon": "auto_awesome_mosaic",
             "use_custom_color": false,
             "custom_color": "#196cb0"

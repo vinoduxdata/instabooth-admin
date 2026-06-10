@@ -33,7 +33,7 @@
         "trigger": {
           "ui_trigger": {
             "show_button": true,
-            "title": "Image",
+            "title": "SINGLE PHOTO",
             "icon": "photo_camera",
             "use_custom_color": false,
             "custom_color": "#196cb0"
